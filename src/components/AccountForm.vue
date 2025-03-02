@@ -129,14 +129,12 @@
     flex-wrap: nowrap;
   }
   
-  /* 📏 Adjusted input sizes */
   .small-input {
     width: 130px;
     min-width: 130px;
     max-width: 130px;
   }
   
-  /* 🆕 Fixed width for LDAP/Local dropdown */
   .fixed-dropdown {
     width: 130px !important;
     min-width: 130px !important;
@@ -144,20 +142,20 @@
     text-align: center;
   }
   
-  /* 🚀 Login Field Expands When Password is Hidden */
+  
   .expanded-input {
-    width: 275px !important; /* Doubles in size */
+    width: 275px !important;
     min-width: 275px !important;
     max-width: 275px !important;
   }
   
-  /* 🆕 Password field with eye icon */
+  
   .password-container {
     display: flex;
     align-items: center;
   }
   
-  /* Fix eye icon spacing */
+
   .eye-icon {
     background: none;
     border: none;
@@ -166,7 +164,7 @@
     margin-left: 5px;
   }
   
-  /* 🚮 Delete button: now black and in-line with the fields */
+  
   .delete-btn {
     background: none;
     border: none;
@@ -176,7 +174,7 @@
     margin-left: 5px;
   }
   
-  /* 📱 Mobile Responsive: Stack into columns */
+  /* 📱 Mobile */
   @media (max-width: 600px) {
     .account-row {
       flex-direction: column;
